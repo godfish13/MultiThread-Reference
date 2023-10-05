@@ -9,6 +9,87 @@ namespace ServerCore
 {
     internal class Program
     {
+        
+
+
+
+        ////////////////////////////////////////////////////////
+        // 4_2-7, 8 Lock 기초와 DeadLock
+        /*static int number = 0;
+        static object obj = new object();
+
+        static void Thread1()
+        {
+            for (int i = 0; i < 100000; i++)
+            {
+                //Monitor.Enter(obj); // 상호배제 Mutual Exclusive // Enter ~ Exit 사이의 코드는 원자성을 지니게 됨
+                //number++;
+                //Monitor.Exit(obj);  // 그러나 오류가 생기기 쉬움
+                lock (obj)          // 위와 같은 내용이나 Exit빼먹을 위험성이 훨씬 적음
+                {
+                    number++;
+                }
+            }
+        }
+
+        static void Thread2()
+        {
+            for (int i = 0; i < 100000; i++)
+            {
+                lock(obj) 
+                {
+                    number--;
+                }
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            Task t1 = new Task(Thread1);
+            Task t2 = new Task(Thread2);
+
+            t1.Start();
+            t2.Start();
+
+            Task.WaitAll(t1, t2);
+
+            Console.WriteLine(number);
+        }*/
+
+        ////////////////////////////////////////////////////////
+        // 4_2-6 InterLocked
+        /*static int number = 0;
+
+        static void Thread1()
+        {
+            for (int i = 0; i < 100000; i++)
+            {
+                int aftervalue = Interlocked.Increment(ref number);
+            }
+        }
+
+        static void Thread2()
+        {
+            for (int i = 0; i < 100000; i++)
+            {
+                Interlocked.Decrement(ref number);
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            Task t1 = new Task(Thread1);
+            Task t2 = new Task(Thread2);
+
+            t1.Start();
+            t2.Start();
+
+            Task.WaitAll(t1, t2);
+
+            Console.WriteLine(number);
+        }*/
+
+
         //////////////////////////////////////////////////////////////////////////////////
         // 4_2-5 메모리 배리어
         // 1. 코드 재배치 방지(메모 참조)
@@ -18,7 +99,7 @@ namespace ServerCore
         // 2) Store Memory Barrier : Store만 막음  // 단, 이하 둘은 어셈블리 영역정도에서나 사용 위에 Full만 제대로 확인하기
         // 2) Load Memory Barrier : Load만 막음  
 
-        static int x = 0;
+        /*static int x = 0;
         static int y = 0;
         static int result1 = 0;
         static int result2 = 0;
@@ -62,7 +143,7 @@ namespace ServerCore
             }
 
             Console.WriteLine($"{count}번만에 빠져나옴");
-        }
+        }*/
 
 
         //////////////////////////////////////////////////////////////////////////////////
