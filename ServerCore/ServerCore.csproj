@@ -43,7 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <None Include="2_ThreadCreate.cs" />
+    <None Include="3_CompilerOptimize.cs" />
+    <None Include="Program.cs" />
+    <None Include="4_CashTheory.cs" />
+    <None Include="5_MemoryBarrier.cs" />
+    <None Include="6_InterLocked.cs" />
+    <None Include="7_8_DeadLock.cs" />
+    <None Include="9_10_SpinLock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
