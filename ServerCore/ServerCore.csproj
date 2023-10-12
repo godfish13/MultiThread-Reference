@@ -45,6 +45,9 @@
   <ItemGroup>
     <None Include="2_ThreadCreate.cs" />
     <None Include="3_CompilerOptimize.cs" />
+    <None Include="9_11_ContextSwitch.cs" />
+    <None Include="9_12_1_AutoResetEvent.cs" />
+    <Compile Include="9_12_2_Mutex.cs" />
     <None Include="Program.cs" />
     <None Include="4_CashTheory.cs" />
     <None Include="5_MemoryBarrier.cs" />
