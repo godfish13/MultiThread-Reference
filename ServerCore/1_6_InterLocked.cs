@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace ServerCore
 {
-    internal class _6_InterLocked
+    internal class _1_6_InterLocked
     {
         ////////////////////////////////////////////////////////
         // 6 InterLocked

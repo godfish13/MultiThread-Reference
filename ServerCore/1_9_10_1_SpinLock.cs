@@ -54,7 +54,7 @@ namespace ServerCore
     }
 
 
-    internal class _9_10_SpinLock
+    internal class _1_9_10_1_SpinLock
     {
         ////////////////////////////////////////////////////////
         // (9 Lock 구현 이론) 10 SpinLock

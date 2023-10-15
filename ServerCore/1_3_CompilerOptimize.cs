@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace ServerCore
 {
-    internal class _3_CompilerOptimize
+    internal class _1_3_CompilerOptimize
     {
         //////////////////////////////////////////////////////////////////////////////////
         // 3 컴파일러 최적화 실습

@@ -43,17 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="2_ThreadCreate.cs" />
-    <None Include="3_CompilerOptimize.cs" />
-    <None Include="9_11_ContextSwitch.cs" />
-    <None Include="9_12_1_AutoResetEvent.cs" />
-    <Compile Include="9_12_2_Mutex.cs" />
+    <None Include="1_2_ThreadCreate.cs" />
+    <None Include="1_3_CompilerOptimize.cs" />
+    <None Include="2_1_ContextSwitch.cs" />
+    <None Include="2_2_1_AutoResetEvent.cs" />
+    <None Include="2_2_2_Mutex.cs" />
     <None Include="Program.cs" />
-    <None Include="4_CashTheory.cs" />
-    <None Include="5_MemoryBarrier.cs" />
-    <None Include="6_InterLocked.cs" />
-    <None Include="7_8_DeadLock.cs" />
-    <None Include="9_10_SpinLock.cs" />
+    <None Include="1_4_CashTheory.cs" />
+    <None Include="1_5_MemoryBarrier.cs" />
+    <None Include="1_6_InterLocked.cs" />
+    <None Include="1_7_8_DeadLock.cs" />
+    <None Include="1_9_10_1_SpinLock.cs" />
+    <None Include="1_9_10_2_SpinLockClass.cs" />
+    <Compile Include="2_3_ReaderWriterLock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

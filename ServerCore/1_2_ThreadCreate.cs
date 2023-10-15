@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace ServerCore
 {
-    internal class _2_ThreadCreate
+    internal class _1_2_ThreadCreate
     {
         //////////////////////////////////////////////////////////////////////////////////
         static void MainThread(object State)          // 4_2-2 스레드 생성 실습

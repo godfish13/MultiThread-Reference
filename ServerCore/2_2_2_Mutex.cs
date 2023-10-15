@@ -9,7 +9,7 @@ namespace ServerCore
 {
     //////////////////////////////////////////
     // + Mutex
-    internal class _9_12_2_Mutex
+    internal class _2_2_2_Mutex
     {
         static int _num = 0;
         static Mutex _lock = new Mutex();   // ResetEvent와 비슷하나 단순히 bool로 작동하는 RE와 다르게 lock횟수 등 다양한 정보를 포함하고있음

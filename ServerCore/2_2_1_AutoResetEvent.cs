@@ -40,7 +40,7 @@ namespace ServerCore
 
     }
 
-    internal class _9_12_1_AutoResetEvent
+    internal class _2_2_1_AutoResetEvent
     {
         static int _num = 0;
         static Lock _lock = new Lock();

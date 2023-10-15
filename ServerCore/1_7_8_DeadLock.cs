@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ServerCore
 {
-    internal class _7_8_DeadLock
+    internal class _1_7_8_DeadLock
     {
         ////////////////////////////////////////////////////////
         // 7, 8 Lock 기초와 DeadLock

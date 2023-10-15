@@ -36,7 +36,7 @@ namespace ServerCore
         }
     }
 
-    internal class _11_ContextSwitch
+    internal class _2_1_ContextSwitch
     {       
         static int _num = 0;
         static SpinLock _lock = new SpinLock();

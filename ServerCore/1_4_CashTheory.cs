@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ServerCore
 {
-    internal class _4_CashTheory
+    internal class _1_4_CashTheory
     {
         //////////////////////////////////////////////////////////////////////////////////
         // 4 캐시 이론

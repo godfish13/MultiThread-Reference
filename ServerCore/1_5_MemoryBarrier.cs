@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Threading;
 namespace ServerCore
 {
-    internal class _5_MemoryBarrier
+    internal class _1_5_MemoryBarrier
     {
         //////////////////////////////////////////////////////////////////////////////////
         // 5 메모리 배리어
