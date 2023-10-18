@@ -55,7 +55,9 @@
     <None Include="1_7_8_DeadLock.cs" />
     <None Include="1_9_10_1_SpinLock.cs" />
     <None Include="1_9_10_2_SpinLockClass.cs" />
-    <Compile Include="2_3_ReaderWriterLock.cs" />
+    <None Include="2_3_ReaderWriterLock.cs" />
+    <None Include="2_4_RWLbuilding.cs" />
+    <Compile Include="2_5_ThreadLocalStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
