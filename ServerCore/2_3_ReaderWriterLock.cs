@@ -13,7 +13,7 @@ namespace ServerCore
 
         class Reward
         {
-
+            static int count = 0;
         }
 
         static Reward GetRewardByid(int id)
@@ -24,12 +24,12 @@ namespace ServerCore
             return null;
         }
 
-        static Reward AddReward(Reward reward) 
+        static Reward AddReward(Reward reward)
         {
             _rwlock.EnterWriteLock();
 
             _rwlock.ExitWriteLock();
             return reward;
         }
-    }
+    }   
 }
